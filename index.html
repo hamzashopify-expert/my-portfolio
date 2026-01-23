@@ -156,8 +156,21 @@ footer{
 
 /* RESPONSIVE */
 @media(max-width:768px){
-    .hero{flex-direction:column-reverse;text-align:center;}
+    .hero{
+        flex-direction:column-reverse;
+        text-align:center;
+    }
     .hero img{width:260px;}
+
+    /* EXPERIENCE COUNTERS – 2 IN A ROW */
+    .counters{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    /* PORTFOLIO – 2 IN A ROW */
+    .portfolio{
+        grid-template-columns:repeat(2,1fr);
+    }
 }
 </style>
 </head>
@@ -182,7 +195,6 @@ footer{
 I am a professional Shopify Website Designer & Developer with years of experience creating premium Shopify stores. I specialize in custom Shopify design, theme customization, speed optimization, product page optimization, and conversion-focused layouts. My goal is to deliver modern, scalable, and revenue-driven eCommerce solutions.
 </p>
 
-<!-- EXPERIENCE COUNTERS -->
 <div class="counters">
     <div class="counter-box">
         <i class="fa-solid fa-briefcase"></i>
@@ -211,21 +223,18 @@ I am a professional Shopify Website Designer & Developer with years of experienc
 <section>
 <div class="section-title"><h2>My <span>Services</span></h2></div>
 <div class="services">
-
 <div class="service"><h3>Complete Website Setup</h3><p>Full Shopify store setup.</p></div>
 <div class="service"><h3>One Product Store Design</h3><p>High-converting layout.</p></div>
 <div class="service"><h3>Shopify Copy / Clone Store</h3><p>Clone competitor stores.</p></div>
 <div class="service"><h3>Theme Customization</h3><p>Free & premium themes.</p></div>
 <div class="service"><h3>Shopify Migration</h3><p>Move stores to Shopify.</p></div>
 <div class="service"><h3>Product Research & Listings</h3><p>Winning products setup.</p></div>
-
 <div class="service"><h3>Shopify Development</h3><p>Custom Shopify solutions.</p></div>
 <div class="service"><h3>Shopify Liquid Templates</h3><p>Custom Liquid templates.</p></div>
 <div class="service"><h3>Custom Shopify Sections</h3><p>Reusable Liquid sections.</p></div>
 <div class="service"><h3>Shopify Bug Fixing</h3><p>Fix Liquid & layout issues.</p></div>
 <div class="service"><h3>Speed Optimization</h3><p>Fast loading stores.</p></div>
 <div class="service"><h3>Technical Support</h3><p>Ongoing Shopify support.</p></div>
-
 </div>
 </section>
 
@@ -233,7 +242,6 @@ I am a professional Shopify Website Designer & Developer with years of experienc
 <section>
 <div class="section-title"><h2>Shopify <span>Portfolio</span></h2></div>
 <div class="portfolio">
-
 <div class="portfolio-card"><h3>Sendegaro</h3><a href="https://sendegaro.com/" target="_blank" class="btn small-btn">View Store</a></div>
 <div class="portfolio-card"><h3>Kylie Store</h3><a href="https://kyliestore.online/" target="_blank" class="btn small-btn">View Store</a></div>
 <div class="portfolio-card"><h3>Hola.pk</h3><a href="https://hola.pk/" target="_blank" class="btn small-btn">View Store</a></div>
@@ -249,7 +257,6 @@ I am a professional Shopify Website Designer & Developer with years of experienc
 <div class="portfolio-card"><h3>Pops Gang</h3><a href="https://popsgang.com/" target="_blank" class="btn small-btn">View Store</a></div>
 <div class="portfolio-card"><h3>N2 Shop</h3><a href="https://n2-shop.com/" target="_blank" class="btn small-btn">View Store</a></div>
 <div class="portfolio-card"><h3>Lizzy Vintage</h3><a href="https://www.lizzyvintage.com/" target="_blank" class="btn small-btn">View Store</a></div>
-
 </div>
 </section>
 
